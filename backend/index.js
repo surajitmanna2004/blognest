@@ -16,7 +16,7 @@ dotenv.config({ path: ".env" });
 //Cors
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL || "https://blognest-omega.vercel.app"||'*',
+    origin: process.env.FRONTEND_URL || "https://blognest-iota.vercel.app",
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE"],
   })

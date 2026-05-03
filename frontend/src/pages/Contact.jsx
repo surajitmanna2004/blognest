@@ -116,15 +116,15 @@ function Contact() {
             <ul className="space-y-5 text-gray-700">
               <li className="flex items-center space-x-3">
                 <FaPhone className="text-blue-600 text-lg" />
-                <span className="font-medium">+91 6294715255</span>
+                <span className="font-medium">+91 7550808361</span>
               </li>
               <li className="flex items-center space-x-3">
                 <FaEnvelope className="text-pink-500 text-lg" />
-                <span className="font-medium">palash.sarkar.work@gmail.com</span>
+                <span className="font-medium">surajitmanna4551@gmail.com</span>
               </li>
               <li className="flex items-center space-x-3">
                 <FaMapMarkerAlt className="text-green-500 text-lg" />
-                <span className="font-medium">Garhbeta, Medinipur(W), India</span>
+                <span className="font-medium">Kakdwip,India</span>
               </li>
             </ul>
             <p className="mt-8 text-gray-600">

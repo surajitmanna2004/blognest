@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "This is a full stack project on blog app",
   "license": "ISC",
-  "author": "Palash Sarkar",
+  "author": "Surajit Manna",
   "type": "module",
   "main": "index.js",
   "scripts": {

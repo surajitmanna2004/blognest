@@ -1,7 +1,7 @@
 import React from "react";
 import { useAuth } from "../context/AuthProvider";
 import { FaGithub, FaLinkedin, FaTwitter, FaCode, FaServer, FaDatabase, FaTools, FaLaptopCode } from "react-icons/fa";
-import profilePic from "../assets/Palash_profile.jpg"; // Import your photo
+import profilePic from "../assets/surajit_photo.jpeg"; // Import your photo
 
 function About() {
   const { profile } = useAuth();

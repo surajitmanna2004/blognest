@@ -20,21 +20,16 @@ function About() {
         <div className="flex flex-col items-center">
           <img
             src={profilePic}
-            alt={profile?.user?.name || "Palash Sarkar"}
+            alt={profile?.user?.name || "Surajit Manna"}
             className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover shadow-md hover:scale-105 transition-transform duration-500"
           />
 
           {/* Social Media */}
           <div className="flex space-x-4 mt-4">
-            <a href="https://github.com/palashsarkar2003" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/surajitmanna2004" target="_blank" rel="noopener noreferrer">
               <FaGithub className="text-gray-700 hover:text-gray-900 text-xl md:text-2xl transition-colors duration-300" />
             </a>
-            <a href="https://www.linkedin.com/in/palash-sarkar-244454204" target="_blank" rel="noopener noreferrer">
-              <FaLinkedin className="text-blue-600 hover:text-blue-800 text-xl md:text-2xl transition-colors duration-300" />
-            </a>
-            <a href="https://twitter.com/PalashS55922259" target="_blank" rel="noopener noreferrer">
-              <FaTwitter className="text-blue-400 hover:text-blue-600 text-xl md:text-2xl transition-colors duration-300" />
-            </a>
+            
           </div>
         </div>
 
@@ -43,7 +38,7 @@ function About() {
           <p>
             Hi, I am{" "}
             <strong className="text-blue-600 font-semibold hover:scale-105 transition-transform duration-300">
-              Palash Sarkar
+              Surajit Manna
             </strong>, a passionate Full-Stack Developer with skills in both front-end and back-end technologies. I enjoy building responsive, dynamic, and user-friendly web applications that deliver seamless digital experiences.
           </p>
         </div>
@@ -54,7 +49,7 @@ function About() {
         <h2 className="text-2xl font-semibold text-blue-600 mb-3">Education</h2>
         <ul className="list-disc list-inside text-gray-700 space-y-2 text-base md:text-lg leading-relaxed">
           <li>B.Tech in Computer Science and Engineering -(Data Science) – Brainware University(2022-26)</li>
-          <li>Higher Secondary – Vidyasagar Vidyapith Boys' High School, 2021</li>
+          <li>Higher Secondary – Sundarban Adarsha Vidyamandir' High School, 2021</li>
         </ul>
       </div>
 
